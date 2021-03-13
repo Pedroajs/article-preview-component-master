@@ -14,7 +14,7 @@ body{
    align-items: center;
    justify-content: center;
    gap:1ch;
-   font-size: 13px;
+   font-size: 16px;
    background-color: hsl(210, 46%, 95%);
 } 
 .container{
@@ -36,19 +36,25 @@ body{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;;
 }
-.container-card{
-    /* display: grid;
-    place-content: center;
-    gap: 1ch;
-    box-sizing: border-box; */
-    /* margin: 2%;
-    padding: 2%; */
-    
-}
+
 
 .container-card-section{
     padding: 6%;
     
+}
+
+.container-card-section h1{
+    color: hsl(217, 19%, 35%);
+}
+
+.container-card-section p{
+    color: hsl(214, 17%, 51%);
+}
+.container-card-section h4{
+    color: hsl(217, 19%, 35%);
+}
+.container-card-section-footer{
+    color: hsl(214, 17%, 51%);
 }
 .container-card-section-title{
     margin-bottom: 4%;
@@ -76,15 +82,18 @@ body{
 .share-icon{
    position: absolute;
    left: 415px;
-   top:8px
+   top:8px;
+
+   border-radius: 100%;
+   background-color: hsl(210, 46%, 95%);
 }
 .icons-container{
-    width: 71%;
+    width: 55%;
     height: 124%;
     position: absolute;
-    background-color: gray;
-    top:-62px;
-    right: -119px;
+    background-color:hsl(217, 19%, 35%);
+    top:-68px;
+    right: -79px;
 
     display: flex;
     justify-content: space-evenly;
@@ -111,5 +120,5 @@ body{
         height: 0;
         border-left: 10px solid transparent;
         border-right: 10px solid transparent;
-        border-top: 10px solid grey;
+        border-top: 10px solid hsl(217, 19%, 35%);
 }

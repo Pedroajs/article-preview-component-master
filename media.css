@@ -24,7 +24,9 @@
     .share-icon{
         position: absolute;
         left: 264px;
-        top: 16px;
+        top: 17px;
+
+        padding: 7px;
     }
     .container-card-section-footer {
         margin-top: 10%;
@@ -34,12 +36,19 @@
         height: 194%;
         top: -5px;
         right: -19px;
-
-
+        display: flex;
+        justify-content: flex-start;
         border-radius: 0px 0px 10px 10px;
     }
     .icons-container::after{
         display: none;
+ 
+    }
+    span{
+        margin: 25px;
+    }
+    .social-icon{
+        margin-right: 15px;
     }
 }
     

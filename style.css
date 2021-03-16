@@ -79,6 +79,7 @@ body{
 }
 .share-icon{
    position: absolute;
+   padding: 7px;
    left: 415px;
    top:8px;
    place-items: center;    
@@ -94,13 +95,14 @@ body{
     background-color:hsl(217, 19%, 35%);
     top:-68px;
     right: -87px;
-    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
     box-shadow: 0 3px 9px 1px hsl(212, 23%, 69%);
-    /* display: none; */
+
+    visibility: hidden;
+    
 }
 .social-icon{
     max-width:20px;
@@ -122,6 +124,9 @@ body{
         border-right: 10px solid transparent;
         border-top: 10px solid hsl(217, 19%, 35%);
 }
+
+/* atributo de aparecer e desaparecer */
+.btn-icon{}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
